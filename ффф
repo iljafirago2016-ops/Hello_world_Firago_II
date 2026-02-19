@@ -1,0 +1,24 @@
+print('=' * 55)
+print('Добро пожаловать в Политех!')
+print('=' * 55, end='\n\n')
+
+# Информация о студенте
+name = 'Илья Фираго'
+group = '4731903/50001'
+year_start = 2025
+
+# Текущий год обучения
+current_course = 1
+print(f'Студент: {name}', end=' | ')
+print(f'Группа: {group}', end=' | ')
+print(f'Курс: {current_course}', end='\n\n')
+
+# Таблица успеваемости
+print('ТЕКУЩАЯ УСПЕВАЕМОСТЬ:')
+print('-' * 55)
+print('Предмет\t\t\tОценка')
+print('-' * 55)
+print('Математика\t\t5')
+print('Физика\t\t\t5')
+print('Информатика\t\t5')
+print('Химия\t\t\t5', end='\n\n')
